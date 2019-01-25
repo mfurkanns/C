@@ -46,8 +46,6 @@ int main (){
 			printf("\n a ve b cakisik koktur.");			
 		}
 		
-	    
-		
 	}
 	
 	c=(a+b)/2;
@@ -77,37 +75,13 @@ int main (){
 			a=c;
 		}
 		
-		
-		
 	}
 	
 	}
 	
-	
-	
-		
-	
-		
-		
-		
 		
 	printf("\ncikmak icin 0'a basiniz ...");
 	scanf("%lf",&dur);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	return 0 ;	
 }
