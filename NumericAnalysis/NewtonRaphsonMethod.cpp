@@ -15,27 +15,17 @@ int main (){
 	scanf("%lf",&d);	
 	printf("x^4 katsayisini giriniz = ");
 	scanf("%lf",&e);
-		
 	
-
 	printf("baslangic degerini giriniz = ");
 	scanf("%lf",&x);
 	printf("epsilon degerini giriniz = ");
 	scanf("%lf",&eps);
-	
-	
-
-	
-	
-	
 	
 	fonk=(e*x*x*x*x)+(d*x*x*x)+(c*x*x)+(b*x)+(a);
 	turev=4*(e*x*x*x)+3*(d*x*x)+2*(c*x)+(b);
 	
 	x1=x-fonk/turev;
 	fark=fabs(x1-x);
-	
-
 	
 	printf("\nXk             X(k+1)             X(k+1)-Xk");
 	printf("\n------------------------------------------------");
@@ -49,17 +39,8 @@ int main (){
 	}
 	printf("\ndenklem koku = %lf",x1);
 	
-	
-	
-	
 	printf("\ncikmak icin 0'a basiniz ...");
 	scanf("%lf",&dur);
-	
-	
-	
-	
-	
-	
 	
 	
 	return 0 ;
