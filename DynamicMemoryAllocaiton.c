@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int** mtxalloc(int **mtr,int a,int b){
+int** malloc(int **mtr,int a,int b){
 	
 	int i,j;
 	
@@ -12,7 +12,8 @@ int** mtxalloc(int **mtr,int a,int b){
 	return mtr;
 }
 
-int main(){
+int main()
+{
 	
 	int i,j,n,l,**matrix;
 	
@@ -29,6 +30,7 @@ int main(){
 		}
 		
 	}	
+	
 	for(i=0;i<n;i++){
 		for(j=0;j<l;j++){
 			printf("%d ",matrix[i][j]);
